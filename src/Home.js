@@ -29,10 +29,12 @@ import "./video-react.css";
 
 }*/
 
+import Auctions from './Auctions';
+
 const Home = () => (
   <div>
     <div class="right-container">
-        <h2 class="tagline">Give big and win a special gift.</h2>
+        <h2 class="tagline">Give to charity and be rewarded.</h2>
         <div class="buy-button">
         <a
           className="App-link"
@@ -49,6 +51,7 @@ const Home = () => (
           loop
           poster=""
           src={bieber}
+          muted={true}
         >
             <ControlBar disableCompletely={true} className="my-class" />
         </Player>
@@ -58,10 +61,13 @@ const Home = () => (
           loop
           poster=""
           src={taylor}
+          muted={true}
         >
             <ControlBar disableCompletely={true} className="my-class" />
         </Player>
     </div>
+    <h1 className="center">Current Auctions</h1>
+    <Auctions />
   </div>
 )
 

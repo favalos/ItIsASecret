@@ -2,7 +2,7 @@ import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import Home from './Home'
 import Auctions from './Auctions'
-import Contact from './Contact'
+import Celebrity from './Celebrity'
 import About from './About'
 import Art1 from './Art1'
 import User1 from './User1'
@@ -13,7 +13,7 @@ const Main = () => (
     <Switch>
       <Route exact path='/' component={Home}/>
       <Route path='/auctions' component={Auctions}/>
-      <Route path='/contact' component={Contact}/>
+      <Route path='/profile' component={Celebrity}/>
       <Route path='/art1' component={Art1}/>
       <Route path='/about' component={About}/>
       <Route path='/user1' component={User1}/>

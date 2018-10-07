@@ -22,7 +22,7 @@ export default class Header extends PureComponent {
             <Nav style={{display:"flex", flexDirection:"row"}} >
                 <NavItem eventKey={1} href="/">Home</NavItem>
                 <NavItem eventKey={2} href="/auctions">Auctions</NavItem>
-                <NavItem><ModalComponent value={this.state.value} onChangeValue={this.handleChangeValue}/></NavItem>
+                <NavItem href="/profile"><ModalComponent value={this.state.value} /></NavItem>
             </Nav>
           </Navbar.Header>
         </Navbar>

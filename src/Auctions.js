@@ -14,24 +14,24 @@ export default class Auctions extends PureComponent{
 			<div>
 				<Row>
 					<Col md={4}>
-		  				<Cardholder name="Dwayne" description="Description of Art 1" image={image1}/>
+		  				<Cardholder name="Dwayne" description="Personalized shoutout to you" image={image1}/>
 		  			</Col>
 		  			<Col md={4}>
-		  				<Cardholder name="Madonna" description="Description of Art 2" image={image2}/>
+		  				<Cardholder name="Madonna" description="A song for you" image={image2}/>
 		  			</Col>
 		  			<Col md={4}>
-		  				<Cardholder name="Justin" description="Description of Art 3" image={image3}/>
+		  				<Cardholder name="Justin" description="A song for you" image={image3}/>
 		  			</Col>
 		  		</Row>
 		  		<Row className="row">
 					<Col md={4}>
-		  				<Cardholder name="Lady Gaga" description="Description of Art 4" image={image4}/>
+		  				<Cardholder name="Lady Gaga" description="A song for you" image={image4}/>
 		  			</Col>
 			  		<Col md={4}>
-			  			<Cardholder name="Will" description="Description of Art 5" image={image5}/>
+			  			<Cardholder name="Will" description="A song for you" image={image5}/>
 			  		</Col>
 			  		<Col md={4}>
-			  			<Cardholder name="Taylor" description="Description of Art 6" image={image6}/>
+			  			<Cardholder name="Taylor" description="Personalized shoutout to you" image={image6}/>
 			  		</Col>
 		  		</Row>
 			</div>
