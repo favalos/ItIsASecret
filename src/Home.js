@@ -36,7 +36,7 @@ const Home = () => (
         <div class="buy-button">
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="/auctions"
           target="_blank"
         >
         View Autions
