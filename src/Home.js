@@ -37,7 +37,6 @@ const Home = () => (
         <a
           className="App-link"
           href="/auctions"
-          target="_blank"
         >
         View Autions
         </a>
