@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.logo {
+  width: 18px;
+  margin-right: 8px;
+}
+
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
+.video-react{
+  position:absolute !important;
+}
+
+.video-react.video-react-fluid:first-child {
+  width: 300px;
+  height: 532px;
+  padding: 0 !important;
+  left: 300px;
+}
+
+.video-react.video-react-fluid {
+  width: 300px !important;
+  height: 532px !important;
+  padding: 0 !important;
+}
+
+.navbar-inverse {
+    border: 0 !important;
+}
+
+.videos-container {
+
+  background-image: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));
+  width:100%;
+  height: 532px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background-color: white !important;
+}
+
+.video-react .video-react-big-play-button {
+  display:none !important;
+}
+
+.right-container {
+  position:absolute;
+  left:600px;
+}
+
+.buy-button {
+    background-color: #7AC943;
+    padding: 16px;
+    border-radius: 8px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.buy-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h2 {
+  padding-top: 30px;
+  padding-left: 40px;
+  font-size: 64px;
+  width: 100%;
+  font-weight: 900;
+  z-index: 1;
+  color: white;
+}
+
+h1 {
+    color:black;
+    margin-right: 48px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+a {
+	font-size: 20px;
+}
+
+.brand {
+	font-size: 35px;
+}
+
+.card-body {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+button.btn-info, button.btn-info:hover {
+  background-color: #7AC943;
+  padding:10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-caption {
+  float:left;
+}
+
+.row {
+  margin-bottom: 18px;
+}
+
+.card-button {
+  float:right;
+  text-align: right;
+}
