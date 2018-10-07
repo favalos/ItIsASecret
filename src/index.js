@@ -1,5 +1,3 @@
-import './bootstrap.min.css';
-import './bootstrap.bundle.min.js';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from "react-router-dom";
